@@ -9,7 +9,7 @@ import (
 )
 
 type ProjectServicesResponse struct {
-	ProjectServices []ProjectService `json:"projectServices"`
+	ProjectServices []ProjectService `json:"services"`
 	NextPageToken   string           `json:"nextPageToken"`
 }
 
